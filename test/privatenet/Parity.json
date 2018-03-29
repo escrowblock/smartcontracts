@@ -1,0 +1,30 @@
+{
+	"name": "DevelopmentChain",
+	"engine": {
+		"instantSeal": { "params": {} }
+	},
+	"params": {
+		"accountStartNonce": "0x0",
+		"maximumExtraDataSize": "0x20",
+		"minGasLimit": "0x1388",
+		"networkID" : "0x11"
+	},
+	"genesis": {
+		"seal": {
+			"generic": "0x0"
+		},
+		"difficulty": "0x20000",
+		"author": "0x0000000000000000000000000000000000000000",
+		"timestamp": "0x00",
+		"parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+		"extraData": "0x",
+		"gasLimit": "0x5B8D80"
+	},
+	"accounts": {
+		"0x89d0a9ad9658b487f3a7948bea5443dbe858fb51": { "balance": "16069380442589902755419"},
+		"0x060dee6c0141830e2874ca216a362a3a90dcec3e": { "balance": "16069380442589902755419"},
+		"0xbe6b7c55576ed40ac93213a49979ccefacf07bd6": { "balance": "16069380442589902755419"},
+		"0x24d7991cb37cdf6178fe6970347a2789a2e22b47": { "balance": "16069380442589902755419"},
+		"0x0bfe3facfdb1cf548fd6d43c1c9e21488a508608": { "balance": "16069380442589902755419"}
+	}
+}

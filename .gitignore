@@ -1,0 +1,6 @@
+/build
+/node_modules
+/test/privatenet/keys/DevelopmentChain
+/test/ganache
+/package-lock.json
+/*.exe
