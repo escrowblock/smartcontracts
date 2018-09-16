@@ -5,9 +5,9 @@ var ESCBCoin = artifacts.require("ESCBCoin");
 var SaleWallet = artifacts.require("SaleWallet");
 
 module.exports = function(deployer, network, accounts) {
-  let initialTime    = 1522670400;
+  let initialTime    = 1537185600; // when with Airdrop will be started 1537185600 09/17/2018 @ 12:00am (UTC)
   let controlTime    = 1554206400;
-  const price        = 5000; // 1ETH = 5000 USD and 1 token is 0.1 USD
+  const price        = 5000; // 1ETH = 500 USD and 1 token is 0.1 USD
   const minGoal      = 80000000000000000000; //80 ETH in weis
   const goal         = 20000000000000000000000; //20 000 ETH in weis
   let ESCBMs         = '0x1f0cf7afa0161b0d8e9ec076fb62bb00742d314a';

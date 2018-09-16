@@ -44,8 +44,9 @@ module.exports = {
     mainnet: {
       network_id: 1,
       provider: mainProvider,
-      gas: 4999999,
-      gasPrice: 3000000000
+      gas: 5999999,
+      gasPrice: 7000000000,
+      nonce: 43
     },
     kovan: {
       network_id: 42,
